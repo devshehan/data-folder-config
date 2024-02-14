@@ -25,7 +25,7 @@ request:
             "1000", "1001", "1002"
       ]
 
-    - url: "http:172.17.152.64/uatria/price"
+    - url: "http://172.17.152.64/uatria/price"
       enabled: true
       rt: [ "16",
             "131",
