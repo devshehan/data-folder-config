@@ -2,7 +2,7 @@
 request:
   webClientReqTimeout: 20 #web client time out in seconds
   endpoints:
-    - url: "http://172.17.152.64/mix2/ClientServiceProvider"
+    - url: "https://data-sa9.mubasher.net/mix2/ClientServiceProvider"
       enabled: true
       rt: [ "2", "5", "7", "9",
             "11", "22", "29",
@@ -25,7 +25,7 @@ request:
             "1000", "1001", "1002"
       ]
 
-    - url: "http://172.17.152.64/uatria/price"
+    - url: "https://data-sa.mubasher.net/uatria/price"
       enabled: true
       rt: [ "16",
             "131",
